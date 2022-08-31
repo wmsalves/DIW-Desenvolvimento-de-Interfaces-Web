@@ -1,0 +1,352 @@
+body {
+    background-color: white;
+}
+
+.header {
+    padding: 15px;
+    background-color: #585858;
+}
+
+.menu_buttons {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu_buttons a {
+    color: white;
+    text-align: center;
+}
+
+.menu_buttons li {
+    padding-inline-end: 7px;
+}
+
+.menu_buttons a:hover {
+    background-color: #3f3f3f;
+    color: white;
+}
+
+.menu_buttons a:visited {
+    color: white;
+}
+
+.menu_buttons .active {
+    background-color: #333333 !important;
+}
+
+.menu_search {
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 75%;
+    align-content: right;
+}
+
+
+@media (max-width: 576px) {
+    .menu_search {
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 828px) {
+    .menu_buttons li {
+        padding: 7px;
+    }
+
+    .menu_search {
+        text-align: center;
+    }
+}
+
+
+
+.profile_img {
+    width: 80%;
+}
+
+@media (max-width: 992px) {
+    .profile_nameDivisor {
+        display: none;
+    }
+}
+
+.profile_general h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.profile_caption {
+    text-align: justify;
+}
+
+@media (max-width: 991px) {
+    .profile_img {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .profile_img {
+        width: 80% !important;
+    }
+}
+
+.profile_texts {
+    padding-top: 35px;
+}
+
+.profile_texts h1 {
+    font-size: 30px;
+}
+
+.profile_caption {
+    padding-top: 10px;
+}
+
+.profile_social {
+    padding-top: 40px;
+}
+
+.profile_social h1 {
+    font-size: 20px;
+}
+
+.profile_icons a {
+    font-size: 30px;
+    color: black;
+}
+
+.profile_icons i {
+    padding-inline-end: 7px;
+}
+
+
+.projects_imgs img {
+    max-width: 100%;
+}
+
+.projects_imgs {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.projects_imgsCaption {
+    font-weight: bold;
+    display: flex;
+    border-bottom: 50px;
+}
+
+
+.experiences_general img {
+    max-width: 50%;
+}
+
+.experiences_rows p {
+    text-align: justify;
+}
+
+.experiences_title {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+
+.repositories_general {
+    background-color: #888;
+}
+
+.repositorios_icones {
+    font-size: 50px;
+}
+
+.repositorios_titulo {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.repositories_title i {
+    padding-right: 16px;
+}
+
+.repositories_open {
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
+    margin: 20px 0px 10px;
+}
+
+.repositories_open:hover {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+.repositories_open i {
+    padding-right: 8px;
+}
+
+
+
+.recomendacoes_descricao {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.recommendations_video {
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    text-align: justify;
+}
+
+
+.footer {
+    padding: 15px;
+    margin-top: 50px;
+    background-color: #585858;
+    color: white;
+}
+
+.footer_row {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer p {
+    margin: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer img {
+    max-width: 80%;
+}
+
+@media (max-width: 768px) {
+    .footer img {
+        padding-top: 20px;
+        max-width: 50%;
+    }
+}
+
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.recommendations_caption,
+.repositories_title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.experiences_rows,
+.repositories_row,
+.recommendations_row {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.profile_general,
+.projetos_geral,
+.experiences_general,
+.repositories_general,
+.recommendations_general {
+    margin: 30px 10px 30px 10px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.general_title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.general_loadMore,
+.btn {
+    padding-top: 6px;
+    margin-left: 0px;
+}
+
+.general_loadMore,
+.btn {
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
+}
+
+.general_loadMore:hover {
+    background-color: white;
+    color: black;
+}
+
+.general_loadMore i {
+    padding-right: 8px;
+}
+
+.carbon {
+    background-color: #333333;
+}
+
+.white {
+    color: white;
+}
+
+/*--------------------------------------------------------------*/
+.profile {
+    margin-bottom: 60px;
+}
+
+.profile_photo {
+    margin-bottom: 20px;
+}
+
+.profile_photo {
+    margin-bottom: 20px;
+    float: left;
+}
+
+.profile_name {
+    text-align: justify;
+}
+
+/*--------------------------------------------------------------*/
+
+@media only screen and (min-width: 992px) {
+    .profile_photo {
+        max-height: 200px;
+    }
+
+    .profile_name {
+        padding-right: 50px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .profile_nome {
+        margin-bottom: 20px;
+    }
+}
+
+/*--------------------------------------------------------------*/
+.retornoPesquisa {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.retornoPesquisa img {
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+/*--------------------------------------------------------------*/
